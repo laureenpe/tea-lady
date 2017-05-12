@@ -1,4 +1,4 @@
-.
+/*.
 p{color: black}
 h1{
  background-color: whitesmoke ;
@@ -16,7 +16,7 @@ en el selector universal todo use la fuente
 LUEGO escojo la tipografia de cabecera
 # selecciona los id
 para quitar espacios, hay que centrar elemento con width especifico.
-width y margin */
+width y margin 
 
 *{
 font-family: 'Inknut Antiqua', serif;
@@ -24,7 +24,7 @@ font-family: 'Inknut Antiqua', serif;
 
 /*h1,h2,h3,h4,h5,h5:{
    font-family:  'Oswald', sans-serif;
-   }*/
+   
 #formulario p {
     background-color: whitesmoke;
     width: 80%;
@@ -35,4 +35,93 @@ font-family: 'Inknut Antiqua', serif;
     color: blue;
     
 
+}*/
+
+
+/* Escribe acá tus estilos*/
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+header h1 {
+    font-size: 40px;
+    background-color: #A4D3D3;
+    color: whitesmoke;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+
+#formulario {
+    background-color: #9FBFBF;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#formulario p {
+    color: whitesmoke;
+}
+
+.formulario-te label {
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    display: block;
+    margin: 8px 0;
+}
+
+.formulario-te select,
+.formulario-te input,
+.formulario-te button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(245, 245, 245, 0.5);
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+
+.formulario-te select option {
+    color: #646464;
+    padding: 10px;
+}
+
+.formulario-te input[type='checkbox'] {
+    margin-top: 13px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: auto;
+    float: left;
+}
+
+.special-lab {
+    width: auto;
+    color: whitesmoke;
+    float: left;
+}
+
+.formulario-te button {
+    background-color: #789A9A;
+    border: none;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
 }
