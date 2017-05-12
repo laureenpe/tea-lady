@@ -61,8 +61,7 @@ function imprimir() {
     var print = document.getElementById("clientes");
 
     for (var i = 0; i < resultado.length; i++) {
-        print.innerHTML = ' <strong> Nombre: </strong> ' + resultado[i].nombre + "</br>" //imprimir
-            +
+        print.innerHTML = ' <strong> Nombre: </strong> ' + resultado[i].nombre + "</br>" + //imprimir 
             '<strong> Apellido: </strong>' + resultado[i].apellido + "</br>" +
             '<strong> Email: </strong>' + resultado[i].correo + "</br>" +
             '<strong> Dirección: </strong>' + resultado[i].direccion + "</br>" +
