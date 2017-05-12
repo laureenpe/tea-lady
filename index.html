@@ -4,14 +4,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Té como señora</title>
+	<link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
 	<header>
-		<h1>Tetería Té como Señora</h1>
+		<nav id="nav-header" class="header">
+			<h1>Tetería Té como Señora</h1>
+			</nav>
 	</header>
-	<section id="formulario">
+	<section class="cuerpo" id="formulario">
 		<p>Bienvenid@s a la Tetería Té como Señora. Ofrecemos los mejores tés del mercado a bajos precios, gracias a nuestro sistema
 			de venta online y cajas del mes.</p>
 		<p>Si deseas suscribirte a nuestra caja de té mensual, rellena tus datos en el formulario</p>
@@ -34,7 +37,7 @@
 				<option value="frutales">Pack frutales (Hierbas y té con aromatizado con fruta</option>
 				<option value="variedades">Pack variedades (Té verde, rojo y blanco)</option>
 			</select>
-			<label for=""></label>
+			<label for=""> <br></label>
 			<input type="checkbox"> Recibe nuestro newsletter mensual con actividades y sorteos<br>
 			<button type="submit" form="form1" value="Submit" onclick="mostrarData()">Enviar</button>
 		</form>

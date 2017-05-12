@@ -1,1 +1,38 @@
-/* Escribe acá tus estilos*/
+.
+p{color: black}
+h1{
+ background-color: whitesmoke ;
+text-align: center;}
+body{
+    background-color: white;
+
+}
+/*fonts google 
+http://www.csszengarden.com/
+https://fonts.google.com/
+open sans, copiar el enlace, bajar regular y bold y semi bold. copio el enlace con un despues title
+link href en html
+en el selector universal todo use la fuente
+LUEGO escojo la tipografia de cabecera
+# selecciona los id
+para quitar espacios, hay que centrar elemento con width especifico.
+width y margin */
+
+*{
+font-family: 'Inknut Antiqua', serif;
+}
+
+/*h1,h2,h3,h4,h5,h5:{
+   font-family:  'Oswald', sans-serif;
+   }*/
+#formulario p {
+    background-color: whitesmoke;
+    width: 80%;
+    margin: 0 auto;
+    padding:20px;
+}
+.formulario -cuerpo{
+    color: blue;
+    
+
+}
