@@ -18,15 +18,15 @@
 		<form action="">
 
 			<label for="Nombre"> Nombre:</label>
-			<input type="text"  id="nombre" required>
+			<input name="nombre" id="nombre" value="" required><br>
 			<label for="Apellido"> Apellido: </label>
-			<input type="text" id="apellido" required>
+			<input name="apellido" id="apellido" value="" required><br>
 			<label for="Email"> Correo Electrónico:</label>
-			<input type="email" id="email" required>
+			<input name="email" id="email" value="" required><br>
 			<label for="Dirección">Dirección: </label>
-			<input type="text" id="direccion" required>
+			<input name="direccion" id="direccion" value="" required><br>
 			<label for="Teléfono">Teléfono:</label>
-			<input type="text" id="telefono" required>
+			<input name="telefono" id="telefono" value="" required><br>
 			<label for="">Selecciona un pack:</label>
 			<select id="pack" required>
 				<option value="">Escoje tu opción </option>
@@ -35,7 +35,7 @@
 				<option value="variedades">Pack variedades (Té verde, rojo y blanco)</option>
 			</select>
 			<label for=""></label>
-			<input type="checkbox"> Recibe nuestro newsletter mensual con actividades y sorteos
+			<input type="checkbox"> Recibe nuestro newsletter mensual con actividades y sorteos<br>
 			<button type="submit" form="form1" value="Submit" onclick="mostrarData()">Enviar</button>
 		</form>
 	</section>

@@ -16,6 +16,7 @@ function mostrarData(){
     var direccion = document.getElementById("direccion").value;
     var telefono= document.getElementById("telefono").value;
     var paco = document.getElementById("pack").value;
+    var resulta = 
 	resultado.push( nombre, apellido, correo, direccion,telefono,paco);
 	//document.getElementById("nombre").value = "";
 	//document.getElementById("apellido").value = "";
